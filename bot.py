@@ -17,7 +17,10 @@ else:
 MESSAGE_TEMPLATE = """\^\^Obligatory. \n 
 
 ***** \n 
-I am a bot. Message me to contact my creator."""
+I am a bot. Message me to contact my creator. \n
+
+I am open source. [Fork me on Github](https://github.com/BlitzKraft/AreYouSureItsNotSMBC)
+"""
 
 reddit = praw.Reddit(client_id = secrets.CLIENT_ID,
              client_secret = secrets.CLIENT_SECRET,
